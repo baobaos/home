@@ -1,0 +1,46 @@
+body{
+	
+}
+a{
+	text-decoration: none;
+}
+ol,ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+input{
+	border: none;
+	-webkit-appearance: none;
+	outline: none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix::after{
+	content: "";
+	display: block;
+	line-height: 0;
+	height: 0;
+	clear: both;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+p{
+	margin: 0;
+}
+*{
+	padding:0;
+	margin:0;
+	/*清除高亮效果*/
+	-webkit-tap-highlight-color:transparent;
+	/*移动端每一个盒子都要设置border-box*/
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	/*sans-serif移动端的默认字体*/
+	font-family: "微软雅黑","sans-serif";
+}
